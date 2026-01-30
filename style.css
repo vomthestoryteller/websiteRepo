@@ -2,7 +2,7 @@
 :root {
     --primary-color: #222;
     --secondary-color: #eee;
-    --accent-color: #ff4500;
+    --accent-color: #F19A88;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -51,6 +51,10 @@ nav ul {
 
 nav ul li {
     margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #F19A88;
 }
 
 main {

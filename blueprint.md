@@ -8,7 +8,7 @@ This document outlines the design, features, and implementation plan for a perso
 ## Design and Style
 
 *   **Aesthetics:** Clean, modern, and professional.
-*   **Color Palette:** A mix of dark and light colors to create a bold and energetic feel.
+*   **Color Palette:** A mix of dark and light colors to create a bold and energetic feel. The key color is #F19A88.
 *   **Typography:** Expressive fonts to emphasize key information.
 *   **Layout:** A responsive layout that works on both desktop and mobile devices.
 *   **Interactivity:** Smooth animations and interactive elements to engage users.
@@ -16,4 +16,4 @@ This document outlines the design, features, and implementation plan for a perso
 
 ## Current Plan
 
-*   **Enhance Visuals:** Add city-themed background images to each section of the website to provide clearer visual separation. The background images will be fixed to create a parallax effect as the user scrolls.
+*   **Color Scheme Update:** Changed the menu text color to #F19A88. Updated the copyright year in the footer. Set the key color to #F19A88 and applied it to the "VOM" logo and all buttons for a consistent look.
