@@ -331,10 +331,11 @@
                 </div>
 
                 <!-- Contact Form -->
-                <form class="space-y-4" onsubmit="event.preventDefault(); alert('Message sent! (Demo)');">
+                <form action="https://formspree.io/f/xqebnwrp" method="POST" class="space-y-4">
                     <div>
                         <input
                             type="text"
+                            name="name"
                             placeholder="Your Name"
                             class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none transition-colors text-white"
                             style="focus:border-color: #F19A88;"
@@ -343,6 +344,7 @@
                     <div>
                         <input
                             type="email"
+                            name="email"
                             placeholder="Your Email"
                             class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none transition-colors text-white"
                         />
@@ -350,12 +352,14 @@
                     <div>
                         <input
                             type="text"
+                            name="project_type"
                             placeholder="Project Type"
                             class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none transition-colors text-white"
                         />
                     </div>
                     <div>
                         <textarea
+                            name="message"
                             rows="5"
                             placeholder="Tell us about your project"
                             class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none transition-colors resize-none text-white"
