@@ -1,1 +1,2 @@
-A simple HTML/JS/CSS starter template
+VOM: a visual storyteller's website
+Copyright (C). Allrights reserved.
